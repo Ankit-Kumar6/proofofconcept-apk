@@ -25,14 +25,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView homeText = findViewById(R.id.home_text);
-        homeText.setText("Welcome from mainactivity");
+        homeText.setText("Welcome To My Count Clicker App.");
 
         Button homeButton = findViewById(R.id.home_button);
 
         homeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i("gwzrd","Welcome from the home button"); //Logcat view
+                Log.i("gwzrd","Welcome to the Logs."); //Logcat view
                 counter++;
                 homeText.setText("Clicked: "+counter);
 
